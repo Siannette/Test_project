@@ -23,21 +23,45 @@
 			</nav>
 		</header>
 
-	<aside>
+	<input type="checkbox" id="sidebar-show">
+
+	<aside id="right-sidebar">
 		<div class="brand66">
 		<h4>Brand 66: Exploring Design</h4>
 		<p>One small step for step for design blogs. Brand66 is on a mission to uncover design trends and examples of brilliant thinking, be they in distant lands or closer to home.</p>
 		</div>
 		<div class="subscribe">
 			<h4>Subscribe</h4>
-			<p>Brand 66: Exploring Design</p>
-			<form> Subscribe
-				<input type="email" name="email">
+			<p>Brand 66 delivered fresh to your inbox</p>
+			<form class="subscribe-form" method="get">
+					<input type="email" class="email-subscribe" placeholder="Email address" />
+					<button type="submit"><i class="fa fa-check fa-2x"></i></button>
 			</form>
 			<ul class="socials">
-				<li><a href="#" class="fa fa-rss"></a></li>
-				<li><a href="#" class="fa fa-linkedin"></a></li>
-				<li><a href="#" class="fa fa-twitter"></a></li>
+				<li>
+					<a href="#">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-rss fa-stack-1x"></i>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-linkedin fa-stack-1x"></i>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x"></i>
+						</span>
+					</a>
+				</li>
 			</ul>
 		</div>
 	<div class="recent">
@@ -76,23 +100,23 @@
 		</ul>
 		</div>
 		<div class="search">
-			<form><label for="sitesearch">Search</label> 
-				<input id="sitesearch" type="search">
-				<button type="submit"><i class="fa fa-arrow-right"></i></button>
+			<h4>Search</h4>
+			<form class="search-form" method="get"> 
+				<input type="search" class="search-field" />
+				<button type="submit"><i class="fa fa-arrow-right fa-2x"></i></button>
 			</form>
 		</div>
 	</aside>
 
 	<section class="content">
 	<div class="post">
-		<h1>Hello World!</h1>
 		<h2>Wooden performance</h2>
 		<article class="post-text">
 			<span class="date">August 7, 2013</span>
 			<p>If an advertiser drops a ball in the forest, does it make a sound? This conundrum seems to have been cleared up by a <a href="#">Japanese mobile phone manufacturer</a>. In this automated extravaganza, a tiny wooden ball descends a wooden ramp. The result is an amazing rendition of Bach’s Jesu, Joy of Man’s Desiring. All this to promote a kidney-shaped smartphone with the tagline, “Touch Wood.”</p>
 		</article>
 		<div class="video-block">
-			<iframe src="https://www.youtube.com/watch?v=yd6NkbUdF3c"></iframe>
+			<iframe src="http://www.youtube.com/embed/6VMf7OqTOuU"></iframe>
 		</div>
 	</div>
 
@@ -114,16 +138,25 @@
 	</section>
 
 	<footer>
-		<div class="upper-part">
+		<div class="pre-footer">
 		<ul class="footer-social">
-			<li><a href="#">in</i></a></li>
-			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+			<li><a href="#"><span class="fa-stack fa-3x">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-linkedin fa-stack-1x"></i></span></a>
+			</li>
+			<li><a href="#"><span class="fa-stack fa-3x">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-twitter fa-stack-1x"></i></span></a>
+			</li>
+			<li><a href="#"><span class="fa-stack fa-3x">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<i class="fa fa-envelope fa-stack-1x"></i></span></a>
+			</li>
 		</ul>
 		</div>
 
 		<div class="footer-menu">
-			<span class="copyright"> &copy; 2013 Rylander Design</span>
+			<span class="copyright"><a href="#">&copy; 2013 Rylander Design</a></span>
 			<nav>
 				<ul class="bottom-nav">
 					<li><a href="#">Home</a></li>
