@@ -1,0 +1,167 @@
+// Screen
+// ======
+
+@import "grids";
+@import "fonts";
+
+body {
+	font-size: 10px;
+}
+
+.wrap {
+	@include container;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+header {
+	background: url('../images/header_bgr.jpg') center top no-repeat;
+	min-height: 36.6em;
+}
+
+ul.head {
+	@include span(2);
+	@include  push(2);
+	text-align: center;
+	padding-top: 2em;
+		li {
+			display: inline-block;
+			margin-left: 2em;
+		}
+		li a {
+			font: bold 1.5em OpenSans-Regular, Arial, sans-serif;
+			color: #727377;
+			&:hover {
+			color: #fff;
+			text-decoration: none;
+			}
+			&.active-nav {
+				color: #fff;
+				}
+		}
+}
+
+
+aside {
+	@include span(2 of 6 last);
+	background-color: #f6f6f6;
+	float: right;
+	padding: 5em;
+	line-height: 3em;
+		div {
+		border-bottom: 1px solid #dadada;}
+		h4 {
+			font: 1.5em OpenSans-Semibold;
+			color: #000;
+		}
+		p, a {
+		font: 1.5em OpenSans light;
+		color: #818181;}
+		.recent ul.last-entries {
+				padding: 0;
+		}
+}
+
+ul .socials li {
+		display: inline;
+		a.fa {
+			display: block;
+			height: 15px;
+			width: 15px;
+			border: 1px solid #bcbdc0;
+			border-radius: 15px;
+			padding: 5px;
+			align-content: center;
+		}
+		&:hover {
+					color: #848486;
+				text-decoration: none;
+				}
+	}
+
+.content {
+	@include span(4);
+	float: left;
+	padding: 5em;
+	font-family: OpenSans-Light;
+	
+}
+
+div.post {
+		border-bottom: 1px solid #bababa;
+		font-family: OpenSans-Light;
+		font-weight: bold;
+		line-height: 2.5em;
+		padding-bottom: 5em;
+			h2 {
+				font-size: 3em;
+			}
+			span.date {
+				font-size: 1.2em;
+				color: #9f9f9f;
+				line-height: 1em;
+			}
+			p {
+				font-size: 1.5em;
+				a {
+					color: #0084ff;
+					text-decoration: none;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+			img {
+				max-width: 100%;
+			}
+			
+}
+
+.video-block {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-block iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entries {
+	padding: 5em 0;
+	a {
+		font: 4em OpenSans-Light;
+		color: #b5b5b5;
+		&:hover {
+			text-decoration: none;
+			font-size: 4.5em;
+			color: #727171;
+		}
+	}
+	.new {
+	float: right;
+	}
+}
+
+
+footer .upper-part {
+
+	display: inline-block;
+	margin-top: 3em;
+}
+
+footer {
+	clear: both;
+}

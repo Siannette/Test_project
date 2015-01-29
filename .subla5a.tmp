@@ -30,14 +30,14 @@
 		</div>
 		<div class="subscribe">
 			<h4>Subscribe</h4>
-			<p>Brand 66: Exploring Design</p>
+			<span>Brand 66: Exploring Design</span>
 			<form> Subscribe
 				<input type="email" name="email">
 			</form>
 			<ul class="socials">
-				<li><a href="#" class="fa fa-rss"></a></li>
-				<li><a href="#" class="fa fa-linkedin"></a></li>
-				<li><a href="#" class="fa fa-twitter"></a></li>
+				<li><a href="#"><i class="fa fa-rss"></i></a></li>
+				<li><a href="#">in</a></li>
+				<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 			</ul>
 		</div>
 	<div class="recent">
@@ -76,24 +76,18 @@
 		</ul>
 		</div>
 		<div class="search">
-			<form><label for="sitesearch">Search</label> 
-				<input id="sitesearch" type="search">
-				<button type="submit"><i class="fa fa-arrow-right"></i></button>
-			</form>
+			<h4>Search</h4>
 		</div>
 	</aside>
 
 	<section class="content">
 	<div class="post">
-		<h1>Hello World!</h1>
 		<h2>Wooden performance</h2>
 		<article class="post-text">
 			<span class="date">August 7, 2013</span>
 			<p>If an advertiser drops a ball in the forest, does it make a sound? This conundrum seems to have been cleared up by a <a href="#">Japanese mobile phone manufacturer</a>. In this automated extravaganza, a tiny wooden ball descends a wooden ramp. The result is an amazing rendition of Bach’s Jesu, Joy of Man’s Desiring. All this to promote a kidney-shaped smartphone with the tagline, “Touch Wood.”</p>
 		</article>
-		<div class="video-block">
-			<iframe src="https://www.youtube.com/watch?v=yd6NkbUdF3c"></iframe>
-		</div>
+		<iframe src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
 	</div>
 
 	<div class="post">
@@ -123,7 +117,7 @@
 		</div>
 
 		<div class="footer-menu">
-			<span class="copyright"> &copy; 2013 Rylander Design</span>
+			<span class="copyright"> &#64; 2013 Rylander Design</span>
 			<nav>
 				<ul class="bottom-nav">
 					<li><a href="#">Home</a></li>
